@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Contact — YUTIL Consulting</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contact YUTIL Consulting">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main style="padding:4rem 1rem; max-width:56rem; margin:0 auto;">
+    <h1 class="text-3xl" style="font-weight:600">Contact Us</h1>
+    <p class="mt-3 text-sm" style="color:#334155">We'd love to hear from you. Use the details below or the form.</p>
+    <div class="mt-4 text-sm" style="color:#334155">
+      <p><strong>Phone:</strong> +1-516-754-1368</p>
+      <p><strong>Email:</strong> admin@yutilconsulting.com &nbsp;|&nbsp; toluwafemi@yutil.io</p>
+      <p><strong>Offices:</strong> Portland OR • Dallas TX • Lagos NG</p>
+    </div>
+    <form action="/api/contact" method="post" class="mt-6" style="display:flex; flex-direction:column; gap:.75rem; max-width:32rem">
+      <input name="name" placeholder="Your name" required style="border:1px solid #e5e7eb; border-radius:.5rem; padding:.5rem"/>
+      <input type="email" name="email" placeholder="Your email" required style="border:1px solid #e5e7eb; border-radius:.5rem; padding:.5rem"/>
+      <textarea name="message" placeholder="How can we help?" rows="5" required style="border:1px solid #e5e7eb; border-radius:.5rem; padding:.5rem"></textarea>
+      <button style="background:#2563eb; color:#fff; padding:.5rem 1rem; border-radius:.5rem">Send</button>
+    </form>
+  </main>
+</body>
+</html>
